@@ -1,0 +1,23 @@
+declare as variáveis abaixo e imprima seus valores 
+
+Um número inteiro (idade)
+ Um número decimal (peso)
+ Um caractere (letra inicial do nome) 
+
+
+int main()
+{
+    int idade = 18;
+ float peso = 72.5;
+ char inicial = 'M';
+ char aniversario[] = "16/06/2006";
+
+ 
+ printf("Idade: %d\n", idade);
+ printf("Peso: %.1f\n", peso);
+ printf("Inicial: %c\n", inicial); 
+ printf("aniversario: %s\n", aniversario);
+ 
+
+    return 0;
+}
