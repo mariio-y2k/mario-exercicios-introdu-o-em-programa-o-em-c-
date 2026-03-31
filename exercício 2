@@ -1,0 +1,15 @@
+Crie um programa que leia dois números inteiros e mostre:
+ Soma
+ Subtração
+ Multiplicação
+ Divisão 
+
+ 
+int a, b, c; 
+    
+ printf("Digite tres numeros:");
+ scanf("%d %d %d", &a, &b, &c);
+ printf("Soma: %d\n", a + b + c);
+ printf("Subtracao: %d\n", a - b - c);
+ printf("Multiplicacao: %d\n", a * b * c);
+ printf("Divisao: %d\n", a / b / c);
