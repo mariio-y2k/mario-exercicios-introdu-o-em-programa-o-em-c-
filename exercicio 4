@@ -1,0 +1,20 @@
+Crie um programa que:
+ Leia um número
+ Verifique se ele é maior que 10 
+
+ int num;
+ 
+ printf("Digite um numero: "); 
+ scanf("%d", &num);
+ 
+ if (num > 10)
+ printf("Maior que 10\n");
+ 
+ else
+ printf("Menor ou igual a 10\n");
+ 
+ if (num % 2 == 0)
+ printf("par\n");
+ 
+ else
+ printf("impar\n");
