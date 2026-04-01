@@ -4,11 +4,15 @@ Exiba uma mensagem com esses dados.
 
     int idade;
     char nome[50]; 
-    
+    char data_nascimento[20];
+
     printf("Digite seu nome: ");
     scanf("%s", &nome); 
     
     printf("Digite sua idade: "); 
     scanf("%d", &idade); 
+
+    printf("Digite sua data de nascimento: ");
+    scanf("%s", &data_nascimento);
     
-    printf("Olá, %s! Voce tem %d anos de idade!", nome, idade);
+    printf("Olá, %s! Voce tem %d anos de idade! e nasceu em: %s", nome, idade, data_nascimento);
