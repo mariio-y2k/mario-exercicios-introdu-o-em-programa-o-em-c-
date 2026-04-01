@@ -1,0 +1,14 @@
+Crie um programa que:
+Leia o nome e a idade de uma pessoa
+Exiba uma mensagem com esses dados.
+
+int idade = 19;
+    char nome[50]; 
+    
+    printf("Digite seu nome: ");
+    scanf("%s", &nome); 
+    
+    printf("Digite sua idade: "); 
+    scanf("%d", &idade); 
+    
+    printf("Olá, %s! Voce tem %d anos de idade!", nome, idade);
